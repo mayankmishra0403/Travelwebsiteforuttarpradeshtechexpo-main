@@ -11,8 +11,7 @@ import { PlanPage } from './pages/PlanPage';
 import { ContactPage } from './pages/ContactPage';
 import { PageTransition } from './components/PageTransition';
 import { useEffect } from 'react';
-// Chatbot widget (JSX file)
-// Chatbot removed per request
+import ChatbotEmbed from './components/ChatbotEmbed';
 
 if (typeof window !== 'undefined') {
   window.scrollTo(0, 0);
@@ -114,7 +113,8 @@ export default function App() {
         <main>
           <AnimatedRoutes />
         </main>
-  {/* Chatbot removed */}
+        {/* Embedded Netlify chatbot (no new tab) */}
+        <ChatbotEmbed url={(import.meta as any).env?.VITE_CHATBOT_URL} title="DARSHAN360 Chatbot" />
         <Footer />
       </div>
     </Router>
