@@ -1,9 +1,3 @@
-/**
- * Content Loader Utility
- * Automatically loads images from /public/content folder
- */
-
-// Base path for content folder (relative to public directory)
 const CONTENT_BASE_PATH = '/content';
 
 /**
@@ -152,8 +146,7 @@ export const CONTENT_FOLDERS = {
  * This is a client-side helper - actual checking happens at runtime
  */
 export function useContentImage(path: string, fallbackUrl: string): string {
-  // In production, this would check if file exists
-  // For now, return the content path if it looks valid
+  
   if (path && path.startsWith('/content')) {
     return path;
   }
@@ -172,5 +165,5 @@ export function getCityImages(
   if (!cityConfig) return [];
   
   const basePath = `${CONTENT_BASE_PATH}/${cityConfig.root}/${subfolder}`;
-  return [basePath]; // Return base path, actual images will be loaded dynamically
+  return [basePath]; 
 }
