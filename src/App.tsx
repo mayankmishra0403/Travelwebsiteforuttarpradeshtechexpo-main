@@ -113,8 +113,8 @@ export default function App() {
         <main>
           <AnimatedRoutes />
         </main>
-        {/* Embedded Netlify chatbot (no new tab) */}
-        <ChatbotEmbed url={(import.meta as any).env?.VITE_CHATBOT_URL} title="DARSHAN360 Chatbot" />
+        {/* Embedded Netlify chatbot (no new tab). Hardcoding provided URL to ensure immediate functionality. */}
+        <ChatbotEmbed url="https://disha.darshan.info" title="DARSHAN360 Chatbot" />
         <Footer />
       </div>
     </Router>

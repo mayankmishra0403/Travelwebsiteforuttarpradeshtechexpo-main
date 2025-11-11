@@ -24,19 +24,18 @@ export function ChatbotEmbed({ url, title = 'Chatbot' }: ChatbotEmbedProps) {
   }, [url]);
 
   const [isOpen, setIsOpen] = useState(false);
-  if (!resolvedUrl) return null;
 
   return (
-    <div className="fixed z-50 bottom-4 right-4">
+    <div className="fixed z-[9999] bottom-4 right-4">
       {/* Toggle button */}
       {!isOpen && (
         <button
           type="button"
           aria-label="Open chatbot"
           onClick={() => setIsOpen(true)}
-          className="h-12 w-12 rounded-full bg-orange-600 text-white shadow-lg flex items-center justify-center hover:bg-orange-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500"
+          className="h-14 w-14 rounded-full bg-orange-600 text-white shadow-xl flex items-center justify-center hover:bg-orange-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 animate-pulse"
         >
-          <MessageCircle size={22} />
+          <MessageCircle size={24} />
         </button>
       )}
 
@@ -55,14 +54,23 @@ export function ChatbotEmbed({ url, title = 'Chatbot' }: ChatbotEmbedProps) {
                 <X size={18} />
               </button>
             </div>
-            <iframe
-              title={title}
-              src={resolvedUrl}
-              className="w-full h-full"
-              allow="clipboard-write;"
-              referrerPolicy="no-referrer"
-              loading="lazy"
-            />
+            {resolvedUrl ? (
+              <iframe
+                title={title}
+                src={resolvedUrl}
+                className="w-full h-full"
+                allow="clipboard-write;"
+                referrerPolicy="no-referrer"
+                loading="lazy"
+              />
+            ) : (
+              <div className="p-4 text-sm text-gray-700 space-y-2">
+                <p><strong>Chatbot URL not configured.</strong></p>
+                <p>Add your Netlify chatbot URL in <code>.env.local</code>:</p>
+                <pre className="bg-gray-50 p-2 rounded border text-[12px] overflow-x-auto">VITE_CHATBOT_URL=https://your-chatbot-site.netlify.app</pre>
+                <p>Then restart the dev server and reload.</p>
+              </div>
+            )}
           </div>
         </div>
       )}
