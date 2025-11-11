@@ -7,6 +7,15 @@ import fallbackLogo from 'figma:asset/87e949815092e3406893b62c4c4bcb47dd69c256.p
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  // Try multiple logo locations: user-provided in /public/assets/logo, root /public/assets, then fallback
+  const logoCandidates = [
+    '/assets/logo.png',
+    '/assets/logo/logo.png',
+    '/assets/logo.svg',
+    '/assets/logo/logo.svg',
+    '/assets/darshan360-logo.png',
+  ];
+  const [logoIndex, setLogoIndex] = useState(0);
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -58,20 +67,29 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <motion.div 
-            className="flex items-center gap-3 cursor-pointer" 
+            className="flex items-center gap-3 cursor-pointer select-none" 
             onClick={() => handleNavigation('/')}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
             <img
-              src="/assets/darshan360-logo.png"
-              alt="Darshan360 logo"
+              src={logoCandidates[Math.min(logoIndex, logoCandidates.length - 1)]}
+              alt="DARSHAN360 logo"
               onError={(e) => {
-                e.currentTarget.onerror = null;
-                e.currentTarget.src = fallbackLogo;
+                // Advance to next candidate; final fallback to bundled figma asset
+                if (logoIndex < logoCandidates.length - 1) {
+                  setLogoIndex((i) => i + 1);
+                } else {
+                  e.currentTarget.onerror = null;
+                  e.currentTarget.src = fallbackLogo;
+                }
               }}
-              className="h-12 w-auto sm:h-14"
+              className="h-10 w-auto sm:h-12"
             />
+            <div className="flex flex-col">
+              <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-gray-900">DARSHAN360</span>
+              <span className="text-[11px] sm:text-xs text-gray-500 leading-none">Discover • Plan • Experience</span>
+            </div>
           </motion.div>
 
           <nav className="hidden md:flex items-center gap-1">
