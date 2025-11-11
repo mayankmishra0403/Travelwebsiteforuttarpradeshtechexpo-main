@@ -87,7 +87,7 @@ export function Header() {
               className="h-10 w-auto sm:h-12"
             />
             <div className="flex flex-col">
-              <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-gray-900">DARSHAN360</span>
+              <span className="company-name text-xl sm:text-2xl font-extrabold tracking-tight text-gray-900">DARSHAN360</span>
               <span className="text-[11px] sm:text-xs text-gray-500 leading-none">Discover • Plan • Experience</span>
             </div>
           </motion.div>

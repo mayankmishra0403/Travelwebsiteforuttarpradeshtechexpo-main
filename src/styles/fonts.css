@@ -1,0 +1,61 @@
+/* Custom Fonts for DARSHAN360 */
+
+/* Agarthi - For headings and company name */
+@font-face {
+  font-family: 'Agarthi';
+  src: url('/fonts/Agarthi.woff2') format('woff2'),
+       url('/fonts/Agarthi.woff') format('woff'),
+       url('/fonts/Agarthi.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Agarthi';
+  src: url('/fonts/Agarthi-Bold.woff2') format('woff2'),
+       url('/fonts/Agarthi-Bold.woff') format('woff'),
+       url('/fonts/Agarthi-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Shangrilla - For body text and entire website */
+@font-face {
+  font-family: 'Shangrilla';
+  src: url('/fonts/Shangrilla.woff2') format('woff2'),
+       url('/fonts/Shangrilla.woff') format('woff'),
+       url('/fonts/Shangrilla.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Shangrilla';
+  src: url('/fonts/Shangrilla-Bold.woff2') format('woff2'),
+       url('/fonts/Shangrilla-Bold.woff') format('woff'),
+       url('/fonts/Shangrilla-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Apply fonts globally */
+:root {
+  --font-shangrilla: 'Shangrilla', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-agarthi: 'Agarthi', Georgia, serif;
+}
+
+/* Default font for entire website */
+body {
+  font-family: var(--font-shangrilla);
+}
+
+/* Agarthi for headings */
+h1, h2, h3, h4, h5, h6,
+.heading,
+.company-name {
+  font-family: var(--font-agarthi);
+}
