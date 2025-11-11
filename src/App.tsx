@@ -12,7 +12,7 @@ import { ContactPage } from './pages/ContactPage';
 import { PageTransition } from './components/PageTransition';
 import { useEffect } from 'react';
 // Chatbot widget (JSX file)
-import ChatbotWidget from './components/ChatbotWidget.jsx';
+// Chatbot removed per request
 
 if (typeof window !== 'undefined') {
   window.scrollTo(0, 0);
@@ -114,8 +114,7 @@ export default function App() {
         <main>
           <AnimatedRoutes />
         </main>
-        {/* Floating chatbot available on all pages */}
-  <ChatbotWidget apiKey={import.meta.env.VITE_OPENROUTER_API_KEY} />
+  {/* Chatbot removed */}
         <Footer />
       </div>
     </Router>
