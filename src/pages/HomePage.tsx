@@ -3,7 +3,7 @@ import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { MapPin, Camera, Calendar, Phone } from 'lucide-react';
 import { Card } from '../components/ui/card';
 import { useNavigate } from 'react-router-dom';
-import { getAllCities } from '../data/cities-data';
+import { CITIES } from '../data/UPData';
 import { useEffect } from 'react';
 
 const heroImage = 'https://images.unsplash.com/photo-1665849863716-b527b5e9ed62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxUYWolMjBNYWhhbCUyMHN1bnNldHxlbnwxfHx8fDE3NjI4MzQyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral';
@@ -35,7 +35,7 @@ const highlights = [
   },
 ];
 
-const featuredCities = getAllCities().slice(0, 4);
+const featuredCities = CITIES.slice(0, 4);
 const featuredDestinations = featuredCities.map(city => ({
   id: city.id,
   name: city.name,

@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Card } from '../components/ui/card';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { MapPin, ArrowRight } from 'lucide-react';
-import { getCitiesByRegion } from '../data/cities-data';
+import { CITIES } from '../data/UPData';
 
 const statsData = [
   { number: '75', label: 'Districts' },
@@ -90,10 +90,10 @@ export function ExplorePage() {
 
   // Update stats dynamically based on actual data
   const updatedRegions = regions.map(region => {
-    const cities = getCitiesByRegion(region.name);
-    const totalPlaces = cities.reduce((acc, city) => acc + city.placesToVisit.length + city.historicalPlaces.length, 0);
+    const cities = CITIES.filter(c => (c.region || '').toLowerCase() === region.name.toLowerCase());
+    const totalPlaces = cities.reduce((acc: number, city: any) => acc + (city.placesToVisit?.length || 0) + (city.historicalPlaces?.length || 0), 0);
     const totalVisitors = cities.length > 0 ? `${cities.length * 2}M+` : region.stats[2].value;
-    
+
     return {
       ...region,
       stats: [
@@ -138,7 +138,7 @@ export function ExplorePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="text-5xl md:text-7xl mb-6"
-              style={{ color: '#4F46E5' }}
+              style={{ color: '#FF9933' }}
             >
               Explore by Region
             </motion.h1>

@@ -2,12 +2,12 @@ import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import fallbackLogo from 'figma:asset/87e949815092e3406893b62c4c4bcb47dd69c256.png';
+const fallbackLogo = '/placeholder.png';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  // Try multiple logo locations: user-provided in /public/assets/logo, root /public/assets, then fallback
+
   const logoCandidates = [
     '/assets/logo.png',
     '/assets/logo/logo.png',
@@ -16,42 +16,31 @@ export function Header() {
     '/assets/darshan360-logo.png',
   ];
   const [logoIndex, setLogoIndex] = useState(0);
+
   const navigate = useNavigate();
   const location = useLocation();
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
+    const handleScroll = () => setIsScrolled(window.scrollY > 50);
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   const handleNavigation = (path: string) => {
-    // Close mobile menu first
     setIsMobileMenuOpen(false);
-    
-    // Immediate scroll reset before navigation
     window.scrollTo(0, 0);
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-    
-    // Navigate
     navigate(path);
-    
-    // Additional scroll reset after navigation
-    requestAnimationFrame(() => {
-      window.scrollTo(0, 0);
-      document.documentElement.scrollTop = 0;
-      document.body.scrollTop = 0;
-    });
+    requestAnimationFrame(() => window.scrollTo(0, 0));
   };
+
+  /*  ⭐ NEW TAB ADDED HERE → { path: '/packages', label: 'Holiday Packages' } */
 
   const navItems = [
     { path: '/', label: 'Home' },
     { path: '/explore', label: 'Explore Regions' },
     { path: '/gallery', label: 'Gallery' },
     { path: '/plan', label: 'Plan Your Visit' },
+    { path: '/packages', label: 'Holiday Packages' },  // ⭐ NEW ROUTE
     { path: '/contact', label: 'Contact' },
   ];
 
@@ -65,9 +54,12 @@ export function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* TOP AREA */}
         <div className="flex justify-between items-center py-4">
-          <motion.div 
-            className="flex items-center gap-3 cursor-pointer select-none" 
+          
+          {/* LOGO + TITLE */}
+          <motion.div
+            className="flex items-center gap-3 cursor-pointer select-none"
             onClick={() => handleNavigation('/')}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -76,7 +68,6 @@ export function Header() {
               src={logoCandidates[Math.min(logoIndex, logoCandidates.length - 1)]}
               alt="DARSHAN360 logo"
               onError={(e) => {
-                // Advance to next candidate; final fallback to bundled figma asset
                 if (logoIndex < logoCandidates.length - 1) {
                   setLogoIndex((i) => i + 1);
                 } else {
@@ -87,11 +78,16 @@ export function Header() {
               className="h-10 w-auto sm:h-12"
             />
             <div className="flex flex-col">
-              <span className="company-name text-xl sm:text-2xl font-extrabold tracking-tight text-gray-900">DARSHAN360</span>
-              <span className="text-[11px] sm:text-xs text-gray-500 leading-none">Discover • Plan • Experience</span>
+              <span className="text-xl sm:text-2xl font-extrabold tracking-tight text-gray-900">
+                DARSHAN360
+              </span>
+              <span className="text-[11px] sm:text-xs text-gray-500 leading-none">
+                Discover • Plan • Experience
+              </span>
             </div>
           </motion.div>
 
+          {/* DESKTOP NAVIGATION */}
           <nav className="hidden md:flex items-center gap-1">
             {navItems.map((item, index) => (
               <motion.button
@@ -102,25 +98,28 @@ export function Header() {
                 onClick={() => handleNavigation(item.path)}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className={`px-4 py-2 transition-colors relative ${
+                className={`px-4 py-2 relative transition-colors ${
                   location.pathname === item.path
                     ? 'text-orange-600'
                     : 'text-gray-700 hover:text-orange-600'
                 }`}
               >
                 {item.label}
+
+                {/* ACTIVE TAB UNDERLINE */}
                 {location.pathname === item.path && (
                   <motion.div
                     layoutId="activeTab"
                     className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-600"
                     initial={false}
-                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                    transition={{ type: 'spring', stiffness: 380, damping: 30 }}
                   />
                 )}
               </motion.button>
             ))}
           </nav>
 
+          {/* MOBILE MENU BUTTON */}
           <motion.button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             whileTap={{ scale: 0.95 }}
@@ -152,6 +151,7 @@ export function Header() {
           </motion.button>
         </div>
 
+        {/* MOBILE MENU */}
         <AnimatePresence>
           {isMobileMenuOpen && (
             <motion.nav

@@ -2,48 +2,47 @@ import { motion } from 'motion/react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { useState } from 'react';
 import { X } from 'lucide-react';
-import { getAllCities } from '../data/cities-data';
+import { CITIES } from '../data/UPData';
 
 const generateGalleryImages = () => {
-  const cities = getAllCities();
+  const cities = CITIES || [];
   const images: Array<{ src: string; title: string; category: string }> = [];
 
   cities.forEach(city => {
-    // Add places to visit
-    city.placesToVisit.slice(0, 2).forEach(place => {
-      images.push({
-        src: place.image,
-        title: `${place.name}, ${city.name}`,
-        category: 'Monuments',
+    // Add temples (as places to visit)
+    if (city.temples) {
+      city.temples.slice(0, 2).forEach(temple => {
+        images.push({
+          src: temple.image,
+          title: `${temple.name}, ${city.name}`,
+          category: 'Monuments',
+        });
       });
-    });
-
-    // Add historical places
-    city.historicalPlaces.slice(0, 1).forEach(place => {
-      images.push({
-        src: place.image,
-        title: `${place.name}, ${city.name}`,
-        category: 'Culture',
-      });
-    });
+    }
 
     // Add hidden gems
-    city.hiddenGems.slice(0, 1).forEach(place => {
-      images.push({
-        src: place.image,
-        title: `${place.name}, ${city.name}`,
-        category: 'Nature',
+    if (city.hiddenGems) {
+      city.hiddenGems.slice(0, 1).forEach(gem => {
+        images.push({
+          src: gem.image,
+          title: `${gem.name}, ${city.name}`,
+          category: 'Nature',
+        });
       });
-    });
+    }
 
     // Add food
-    city.famousDishes.slice(0, 2).forEach(dish => {
-      images.push({
-        src: dish.image,
-        title: `${dish.name}, ${city.name}`,
-        category: 'Cuisine',
+    if (city.famousDishes) {
+      city.famousDishes.slice(0, 2).forEach(dish => {
+        if (dish.image) {
+          images.push({
+            src: dish.image,
+            title: `${dish.name}, ${city.name}`,
+            category: 'Cuisine',
+          });
+        }
       });
-    });
+    }
   });
 
   return images;
@@ -118,14 +117,7 @@ const galleryImages = [...dynamicGalleryImages, ...originalGalleryImages];
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 30 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.22, 1, 0.36, 1],
-    },
-  },
+  visible: { opacity: 1, y: 0 },
 };
 
 const staggerContainer = {
