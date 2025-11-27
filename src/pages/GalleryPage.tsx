@@ -53,62 +53,62 @@ const dynamicGalleryImages = generateGalleryImages();
 
 const originalGalleryImages = [
   {
-    src: 'https://images.unsplash.com/photo-1665849863716-b527b5e9ed62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxUYWolMjBNYWhhbCUyMHN1bnNldHxlbnwxfHx8fDE3NjI4MzQyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Taj Mahal',
     category: 'Monuments',
   },
   {
-    src: 'https://images.unsplash.com/photo-1671512226229-e05294dd1970?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWYXJhbmFzaSUyMGdoYXRzJTIwZXZlbmluZ3xlbnwxfHx8fDE3NjI4MzQyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Varanasi Ghats',
     category: 'Spiritual',
   },
   {
-    src: 'https://images.unsplash.com/photo-1590906424086-3dbc808fd54b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBmZXN0aXZhbCUyMGNlbGVicmF0aW9ufGVufDF8fHx8MTc2Mjc1NTQ1MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Festival Celebrations',
     category: 'Culture',
   },
   {
-    src: 'https://images.unsplash.com/photo-1613292443284-8d10ef9383fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBzdHJlZXQlMjBmb29kfGVufDF8fHx8MTc2MjgzNDI0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Street Food',
     category: 'Cuisine',
   },
   {
-    src: 'https://images.unsplash.com/photo-1575906983143-e15387ed5971?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYSUyMGN1bHR1cmFsJTIwZGFuY2V8ZW58MXx8fHwxNzYyODM0MjQ2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Traditional Dance',
     category: 'Culture',
   },
   {
-    src: 'https://images.unsplash.com/photo-1646303489374-a8a4cebece64?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBwYWxhY2UlMjBhcmNoaXRlY3R1cmV8ZW58MXx8fHwxNzYyODM0MjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Palace Architecture',
     category: 'Monuments',
   },
   {
-    src: 'https://images.unsplash.com/photo-1589657429197-ecba47e3acd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYSUyMHdpbGRsaWZlJTIwbmF0dXJlfGVufDF8fHx8MTc2MjgzNDI0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Wildlife',
     category: 'Nature',
   },
   {
-    src: 'https://images.unsplash.com/photo-1717917196987-ec7f77ce69b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBoYW5kaWNyYWZ0cyUyMHRyYWRpdGlvbmFsfGVufDF8fHx8MTc2MjgzNDI0N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Handicrafts',
     category: 'Culture',
   },
   {
-    src: 'https://images.unsplash.com/photo-1617622163466-d1d56ec8b127?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBzd2VldHMlMjBkZXNzZXJ0c3xlbnwxfHx8fDE3NjI4MzQyNDh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Traditional Sweets',
     category: 'Cuisine',
   },
   {
-    src: 'https://images.unsplash.com/photo-1704788564069-d54cab4169aa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjB0ZW1wbGUlMjBhcmNoaXRlY3R1cmV8ZW58MXx8fHwxNzYyNzgxNjY5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Temple Architecture',
     category: 'Spiritual',
   },
   {
-    src: 'https://images.unsplash.com/photo-1642503408722-37456a4d763f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDF8fHx8MTc2MjgzNDI0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Heritage Buildings',
     category: 'Monuments',
   },
   {
-    src: 'https://images.unsplash.com/photo-1601821139366-eb14f3628e26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYSUyMGxhbmRzY2FwZSUyMG1vdW50YWluc3xlbnwxfHx8fDE3NjI4MzQyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    src: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     title: 'Mountain Landscapes',
     category: 'Nature',
   },

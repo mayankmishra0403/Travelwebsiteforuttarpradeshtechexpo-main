@@ -7,7 +7,7 @@ import { getAllCities } from '../data/cities-data';
 import { useEffect, useRef } from 'react';
 import { FloatingElements } from '../components/FloatingElements';
 
-const heroImage = 'https://images.unsplash.com/photo-1665849863716-b527b5e9ed62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxUYWolMjBNYWhhbCUyMHN1bnNldHxlbnwxfHx8fDE3NjI4MzQyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral';
+const heroImage = 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000';
 
 const highlights = [
   {

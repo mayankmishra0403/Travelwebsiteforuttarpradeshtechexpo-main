@@ -1,7 +1,6 @@
 import { getContentImage } from '../utils/content-loader';
 
-const img = (city: string, subfolder: string, filename: string) => 
-  getContentImage(city, subfolder, filename);
+const img = (city: string, subfolder: string, filename: string) => '';
 
 export const agraImages = {
   hero: img('agra', 'places to visit', 'Taj Mahal .jpg'),
@@ -477,9 +476,4 @@ export function hasLocalContent(): boolean {
   return true;
 }
 
-export function getImageWithFallback(localPath: string, fallbackUrl: string): string {
-  if (hasLocalContent() && localPath) {
-    return localPath;
-  }
-  return fallbackUrl;
-}
+export function getImageWithFallback(localPath: string, fallbackUrl: string): string { return fallbackUrl; }

@@ -16,7 +16,7 @@ export function LandingPage() {
         className="absolute inset-0 z-0"
       >
         <ImageWithFallback
-          src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1920"
+          src="https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000"
           alt="India Heritage"
           className="w-full h-full object-cover"
         />

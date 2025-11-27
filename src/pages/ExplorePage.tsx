@@ -16,7 +16,7 @@ const regions = [
     id: 'purvanchal',
     name: 'Purvanchal',
     tagline: 'The spiritual heartland of India, home to Varanasi, Prayagraj, and Ayodhya',
-    image: 'https://images.unsplash.com/photo-1671512226229-e05294dd1970?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxWYXJhbmFzaSUyMGdoYXRzJTIwZXZlbmluZ3xlbnwxfHx8fDE3NjI4MzQyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     highlights: ['Ganga Aarti', 'Sacred Temples', 'Kashi Vishwanath'],
     stats: [
       { value: '16', label: 'Cities' },
@@ -28,7 +28,7 @@ const regions = [
     id: 'hills',
     name: 'Himalayan Foothill Region',
     tagline: 'Gateway to the Himalayas and spiritual valleys. Home to Dudhwa National Park',
-    image: 'https://images.unsplash.com/photo-1601821139366-eb14f3628e26?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYSUyMGxhbmRzY2FwZSUyMG1vdW50YWluc3xlbnwxfHx8fDE3NjI4MzQyNDd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     highlights: ['Dudhwa National Park', 'Himalayan Foothills'],
     stats: [
       { value: '8', label: 'Cities' },
@@ -40,7 +40,7 @@ const regions = [
     id: 'bundelkhand',
     name: 'Bundelkhand',
     tagline: 'A region steeped in valor and history, featuring magnificent forts, UNESCO...',
-    image: 'https://images.unsplash.com/photo-1642503408722-37456a4d763f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDF8fHx8MTc2MjgzNDI0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     highlights: ['Khajuraho Temples', 'Jhansi Fort'],
     stats: [
       { value: '5', label: 'Cities' },
@@ -52,7 +52,7 @@ const regions = [
     id: 'central',
     name: 'Central & Western UP',
     tagline: 'Where Mughal grandeur meets devotional traditions. Home to the Taj...',
-    image: 'https://images.unsplash.com/photo-1665849863716-b527b5e9ed62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxUYWolMjBNYWhhbCUyMHN1bnNldHxlbnwxfHx8fDE3NjI4MzQyNDR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
     highlights: ['Taj Mahal', 'Nawabi Lucknow'],
     stats: [
       { value: '20+', label: 'Cities' },
@@ -109,7 +109,7 @@ export function ExplorePage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1642503408722-37456a4d763f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxJbmRpYW4lMjBoZXJpdGFnZSUyMGJ1aWxkaW5nfGVufDF8fHx8MTc2MjgzNDI0NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+            src="https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000"
             alt="Heritage Background"
             className="w-full h-full object-cover"
           />
