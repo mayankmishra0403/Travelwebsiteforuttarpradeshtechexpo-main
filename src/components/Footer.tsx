@@ -29,9 +29,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="mb-4">
-              <img 
-                src={logo} 
-                alt="Darshan360" 
+              <img
+                src={logo}
+                alt="Darshan360"
                 className="h-14 w-auto"
               />
             </div>

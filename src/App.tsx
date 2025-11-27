@@ -12,6 +12,7 @@ import { ContactPage } from './pages/ContactPage';
 import { PageTransition } from './components/PageTransition';
 import { useEffect } from 'react';
 import ChatbotEmbed from './components/ChatbotEmbed';
+import { ScrollProgress } from './components/ScrollProgress';
 
 if (typeof window !== 'undefined') {
   window.scrollTo(0, 0);
@@ -31,14 +32,14 @@ function ScrollToTop() {
       // Method 1: Direct DOM manipulation
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
-      
+
       // Method 2: Window scrollTo
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: 'auto'
       });
-      
+
       // Method 3: Backup with setTimeout
       setTimeout(() => {
         window.scrollTo(0, 0);
@@ -66,8 +67,8 @@ function AnimatedRoutes() {
     <AnimatePresence mode="wait" onExitComplete={() => {
       window.scrollTo(0, 0);
     }}>
-  {/* key prop removed to satisfy RoutesProps typing */}
-  <Routes location={location}>
+      {/* key prop removed to satisfy RoutesProps typing */}
+      <Routes location={location}>
         <Route path="/" element={<PageTransition><HomePage /></PageTransition>} />
         <Route path="/explore" element={<PageTransition><ExplorePage /></PageTransition>} />
         <Route path="/region" element={<PageTransition><RegionPage /></PageTransition>} />
@@ -88,17 +89,17 @@ export default function App() {
     if ('scrollRestoration' in window.history) {
       window.history.scrollRestoration = 'manual';
     }
-    
+
     // Force scroll to top with multiple methods
     const forceScrollTop = () => {
       window.scrollTo(0, 0);
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
     };
-    
+
     // Execute immediately
     forceScrollTop();
-    
+
     // And after a micro-delay to catch any late browser scroll restoration
     setTimeout(forceScrollTop, 0);
     setTimeout(forceScrollTop, 10);
@@ -109,6 +110,7 @@ export default function App() {
     <Router>
       <div className="min-h-screen">
         <ScrollToTop />
+        <ScrollProgress />
         <Header />
         <main>
           <AnimatedRoutes />

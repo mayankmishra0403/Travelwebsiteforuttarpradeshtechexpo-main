@@ -30,15 +30,15 @@ export function Header() {
   const handleNavigation = (path: string) => {
     // Close mobile menu first
     setIsMobileMenuOpen(false);
-    
+
     // Immediate scroll reset before navigation
     window.scrollTo(0, 0);
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
-    
+
     // Navigate
     navigate(path);
-    
+
     // Additional scroll reset after navigation
     requestAnimationFrame(() => {
       window.scrollTo(0, 0);
@@ -60,14 +60,13 @@ export function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg' : 'bg-white/95 backdrop-blur-sm'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
-          <motion.div 
-            className="flex items-center gap-3 cursor-pointer select-none" 
+          <motion.div
+            className="flex items-center gap-3 cursor-pointer select-none"
             onClick={() => handleNavigation('/')}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
@@ -102,11 +101,10 @@ export function Header() {
                 onClick={() => handleNavigation(item.path)}
                 whileHover={{ y: -2 }}
                 whileTap={{ scale: 0.95 }}
-                className={`px-4 py-2 transition-colors relative ${
-                  location.pathname === item.path
+                className={`px-4 py-2 transition-colors relative ${location.pathname === item.path
                     ? 'text-orange-600'
                     : 'text-gray-700 hover:text-orange-600'
-                }`}
+                  }`}
               >
                 {item.label}
                 {location.pathname === item.path && (
@@ -169,11 +167,10 @@ export function Header() {
                     animate={{ x: 0, opacity: 1 }}
                     transition={{ delay: index * 0.05, duration: 0.3 }}
                     onClick={() => handleNavigation(item.path)}
-                    className={`block w-full text-left px-4 py-3 transition-colors ${
-                      location.pathname === item.path
+                    className={`block w-full text-left px-4 py-3 transition-colors ${location.pathname === item.path
                         ? 'bg-orange-50 text-orange-600'
                         : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600'
-                    }`}
+                      }`}
                   >
                     {item.label}
                   </motion.button>
