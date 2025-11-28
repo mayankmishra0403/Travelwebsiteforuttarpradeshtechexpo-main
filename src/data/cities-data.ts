@@ -69,89 +69,85 @@ export const citiesData: CityData[] = [
       {
         name: 'Dashashwamedh Ghat (दशाश्वमेध घाट)',
         description: 'Ganga Aarti - The most spectacular ghat in Varanasi where the world-famous Ganga Aarti ceremony is performed every evening at sunset. According to legend, Lord Brahma created this ghat and performed ten (dash) horse (ashwamedh) sacrifices here, hence the name. The ghat comes alive each evening with the mesmerizing aarti ritual performed by young priests in perfect synchronization, holding large multi-tiered brass lamps (diyas), accompanied by bells, conch shells, and devotional songs. Thousands of pilgrims and tourists gather on boats and ghat steps to witness this spiritual spectacle. The reflection of flames on the holy Ganga creates a divine atmosphere. The ghat is also the main point for taking boat rides to experience sunrise and see the entire ghats stretch. Part of the Kashi Vishwanath Dham corridor now connects this ghat directly to the temple.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1rRAuMojkgIU36gfHE7KTljEoJ5psga7Y&sz=w2000',
       },
       {
         name: 'Assi Ghat (अस्सी घाट)',
         description: 'Subah-e-Banaras - The southernmost and one of the most peaceful ghats, located at the confluence of Assi and Ganga rivers. This ghat is the starting point for the famous "Subah-e-Banaras" experience - early morning boat rides offering stunning sunrise views over the ancient city. The ghat has a sacred Assi-Sangameshwar (Shiva) temple and a large Peepal tree worshipped by devotees. Morning aarti performed here is more intimate than Dashashwamedh. The ghat has become a hub for cultural activities, yoga sessions, classical music performances, and spiritual discourses. Young priests perform evening aarti with traditional Banarasi folk songs. The ghat attracts students, sadhus, tourists, and locals alike. Famous for its laid-back atmosphere and numerous cafes nearby offering river views. The boat ride from Assi to Dashashwamedh covering all 84 ghats is an unforgettable spiritual journey.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1YWwo2LjSEfdj3KDOBQQvTBQvwxnA_jBw&sz=w2000',
       },
       {
         name: 'Sarnath (सारनाथ)',
         description: 'Dharmachakra Pravartana - One of Buddhism\'s four most sacred sites, located just 10 km from Varanasi. This is where Lord Buddha gave his first sermon (Dharmachakra Pravartana) after attaining enlightenment at Bodh Gaya in 528 BCE, establishing the Buddhist Sangha. The site features the magnificent Dhamek Stupa, a massive cylindrical structure built by Emperor Ashoka in 249 BCE, standing 43.6 meters tall with intricate floral and geometric carvings. The Archaeological Museum houses the famous Ashoka Pillar with the Lion Capital (now India\'s national emblem) and the Dharmachakra. The Mulagandha Kuti Vihar temple has beautiful frescoes by Japanese artist Kosetsu Nosu depicting Buddha\'s life. Monasteries and temples built by various countries (Thai, Tibetan, Japanese, Chinese) create an international Buddhist community. The peaceful deer park (Isipatana) where Buddha taught still has deer roaming freely. The site attracts Buddhist pilgrims from across the world.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1iFwvPpjMxe-JXkBMjoJePOWWOj87sQql&sz=w2000',
       },
     ]),
     historicalPlaces: [
       {
         name: 'Ramnagar Fort (रामनगर किला)',
         description: 'An 18th-century fort and palace built in 1750 CE by Maharaja Balwant Singh on the eastern bank of the Ganges River, opposite the main city. This fortified palace showcases Mughal architectural style with cream-colored chunar sandstone. The fort still serves as the residence of the Maharaja of Varanasi (Kashi Naresh). It houses the Saraswati Bhawan Museum containing a rare collection of vintage cars, royal palanquins, medieval weaponry, ivory work, antique clocks, astronomical instruments, and ancient manuscripts. The durbar hall displays royal costumes and ceremonial items. The fort is famous for hosting the month-long Ramnagar Ramlila, one of India\'s oldest and most authentic staged performances of the Ramayana, where the entire city becomes the stage. The fort\'s Vedic observatory and royal temple complex are architectural marvels. The best view of the fort is from boat rides on the Ganga during sunset.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1-gV3sg_-KMIgJ9oRSbpbBoa0qpkv8T2E&sz=w2000',
       },
       {
         name: 'Kaal Bhairav Temple (काल भैरव मंदिर)',
         description: 'Kotwal of Kashi - A powerful ancient temple dedicated to Kaal Bhairav, the fierce manifestation of Lord Shiva and considered the guardian deity (Kotwal) of Varanasi. According to Hindu tradition, anyone visiting Kashi must seek permission from Kaal Bhairav before visiting Kashi Vishwanath Temple. The temple houses a silver-faced idol of Bhairav adorned with garlands. Uniquely, devotees offer alcohol (wine and liquor) to the deity, which mysteriously disappears from the bowl placed before the idol - a phenomenon that draws curious visitors. The temple is believed to be established by Lord Shiva himself and mentioned in ancient texts. The atmosphere is intense with the sound of bells, drums, and chants. Devotees believe Bhairav punishes wrongdoers and protects devotees. The temple is especially crowded on Sundays and during Bhairav Ashtami festival. The narrow lanes leading to the temple are lined with shops selling offerings and ritual items.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=19E8Rg4-1mtgArMjsdiIy_XOjzQ-_TaEm&sz=w2000',
       },
     ],
     hiddenGems: [
       {
         name: 'Munshi Ghat / Darbhanga Ghat (मुंशी घाट / दरभंगा घाट)',
         description: 'A hidden gem showcasing majestic Rajasthani-style palace architecture, built by the Maharajas of Darbhanga (Bihar). Unlike the crowded main ghats, this ghat offers peaceful surroundings ideal for quiet walks, photography, and contemplation. The palace complex features intricate stone carvings, beautiful jharokhas (overhanging enclosed balconies), ornate pillars, and terrace gardens overlooking the Ganga. The architecture blends Rajput, Mughal, and local Banarasi styles. Early mornings here are magical with soft golden light illuminating the palace facade and birds chirping. Local fishermen cast nets using traditional methods. The ghat steps are less crowded, making it perfect for meditation and watching the river flow peacefully. Some heritage hotels now operate from portions of the palace, offering authentic experiences. The ghat represents Varanasi\'s lesser-known architectural heritage beyond its famous temples.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1fFjDeuKEuLy3fNENZi2oMeKIP2kyxGGA&sz=w2000',
       },
       {
-        name: 'Lolark Kund (लोलार्क कुंड)',
+        name: 'Lolark Kund (लोलार्क कुंड)',  
         description: 'An ancient sacred water tank (kund) near Tulsi Ghat, believed to be one of the few surviving ancient stepped wells in Varanasi dating back to the Vedic period. The name "Lolark" comes from "Lol" (trembling) and "Ark" (sun), meaning the trembling sun, as the sun\'s reflection shimmers in the water. Dedicated to the Sun God (Surya), this tank is a rare sun worship site in Varanasi, which is predominantly Shiva-centric. The kund descends 15 meters below ground level with steep stone steps on all four sides leading to the water. According to Hindu beliefs, bathing here on the sixth day of the waxing moon in the month of Bhadrapada (August-September) blesses childless couples with children. Thousands gather during Lolark Mela festival. The surrounding Surya temple and the serene atmosphere away from commercial ghats make it a perfect spot for spiritual seekers. The archaeological and mythological significance is immense.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1RzbbINB4wWCPbIKlrvj_u0vgZdW8MGaB&sz=w2000',
       },
     ],
     famousDishes: withFallbackByIndex([
       {
         name: 'Malaiyyo (मलाईयो)',
         description: 'A seasonal winter dessert (December-February only) made from milk foam collected from dew during cold nights. This ethereal, cloud-like sweet literally melts in your mouth without chewing. Preparation starts at midnight when fresh buffalo milk is left in large vessels. By dawn, due to temperature difference and dew, a thick foam forms on top, which is carefully scooped and beaten continuously to create the airy texture. It\'s sweetened with sugar and flavored with saffron, cardamom, and pistachio, then served in earthen bowls (kulhads) or leaf bowls. The dessert has no ghee or solid milk products, making it incredibly light. Found only in Varanasi\'s old lanes and specific sweet shops during winter mornings. The traditional process is labor-intensive and weather-dependent, making it a rare delicacy.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1el5Yv9jk3hP_wZricA5f4cyK86uvc8X4&sz=w2000',
       },
       {
         name: 'Tamatar Chaat (टमाटर चाट)',
         description: 'A unique Banarasi street food where ripe tomatoes are mashed and cooked with special spices creating a hot, spicy, tangy preparation served in earthen cups (kulhads). Unlike regular chaat, this is served piping hot. Finely chopped tomatoes are tempered with cumin, asafoetida, green chilies, and secret spice blends. Topped with boondi, sev, chopped onions, coriander, and various chutneys (tamarind, green, garlic). The earthen kulhad adds an earthy aroma. Best enjoyed at roadside stalls in narrow lanes of Varanasi, especially near Kachori Gali and Godowlia Chowk. The combination of hot spices with tangy tomatoes creates an addictive taste. Usually eaten as an evening snack with crispy pakoras or kachoris.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1CWMQpuKflAhf22gfbU16I9KYVXkb811p&sz=w2000',
       },
       {
         name: 'Banarasi Paan (बनारसी पान)',
         description: 'A world-famous cultural icon and digestive made with betel leaves, served after meals. Banarasi Paan is not just food but an art form passed down through generations of paan-makers (paan-walas). The finest Maghai paan leaves are selected, smeared with lime paste (chuna), filled with sweet ingredients like gulkand (rose petal jam), kattha, coconut flakes, dates, cherries, tutti frutti, saffron, cardamom, fennel seeds, and various secret masalas. Some varieties include silver leaf (chandi ka waraq). Famous shops like Keshav Tambul Bhandar and Pradhan Ji ki Paan have loyal customers across generations. The Meetha Paan (sweet) is most popular, but Saada and Sadha variations exist. Eating paan is a ritual; it should be consumed slowly, allowing flavors to release. Export quality paans are now sent worldwide.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1CgSito3wQmNRx_96rPV1L8vBm2BZlJr2&sz=w2000',
       },
       {
         name: 'Banarasi Lassi (बनारसी लस्सी)',
         description: 'Thick, creamy lassi topped with a generous layer of malai (cream), served in traditional earthen kulhads or large brass glasses. The Blue Lassi Shop near Manikarnika Ghat is world-famous, featured in international media and travel shows. Made from hung curd (chakka) from buffalo milk, giving it extra richness. Hand-churned in traditional wooden churners (madhani), sweetened with sugar or honey, flavored with cardamom, saffron, and rose water. Topped with dry fruits, fruits, and thick malai layer. Some shops offer fruit lassis (mango, banana, pomegranate) and even chocolate lassi. The lassi is so thick, it\'s often eaten with a spoon rather than drunk. Perfect for cooling down in Varanasi\'s heat after exploring the ghats and temples.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1S0u6XC5eQeVvyfa2Slc1YNXGj80FsWgI&sz=w2000',
       },
       {
         name: 'Kachori Sabzi (कचौरी सब्ज़ी)',
         description: 'Varanasi\'s quintessential breakfast served in the famous Kachori Gali (Chowk area). Crispy, flaky deep-fried lentil-stuffed kachoris served piping hot with spicy Aloo (potato) Sabzi. The kachoris are made from refined flour and filled with spiced moong dal or urad dal paste, deep-fried to golden perfection. The accompanying potato curry is tangy, spicy, and watery, flavored with cumin, asafoetida, coriander, and sometimes tamarind. Best eaten early morning (6-10 AM) when freshly prepared. Famous shops like Madhur Milan Café and Kashi Chat Bhandar have queues of locals and tourists. The combination is completed with sweet-spicy chutneys and sometimes jalebi for those who like mixing sweet and savory. A complete, affordable, and filling breakfast experience.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1e0WkjlMj_XGcPWBV7Lu-89AZosnrGijK&sz=w2000',
       },
       {
         name: 'Choora Matar (चूड़ा मटर)',
         description: 'A warm, comforting evening snack made from flattened rice (poha/chura) cooked in generous amounts of desi ghee with fresh green peas. Prepared especially during winter months when fresh peas are available. The dish is tempered with cumin, curry leaves, green chilies, ginger, turmeric, and garnished with fresh coriander, grated coconut, and lemon juice. The ghee gives it a rich, buttery flavor. Often sold by street vendors in the evening, served in small earthen bowls or leaf bowls. The dish is light yet satisfying, perfect with a cup of masala chai. A traditional winter comfort food enjoyed by locals while sitting on ghat steps watching the evening aarti.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1EFNomoWdqVoRseU2qm9l39PT0Z5-56D-&sz=w2000',
       },
       {
         name: 'Chena Dahi Vada (छेना दही वड़ा)',
         description: 'A unique Banarasi variation of dahi vada where vadas are made from chena (fresh cottage cheese/paneer) instead of traditional lentils, making them incredibly soft, spongy, and light. The chena vadas are first fried lightly, then soaked in thick, sweetened curd (dahi), topped with sweet tamarind chutney, spicy green chutney, roasted cumin powder, red chili powder, and garnished with coriander and sev. The texture is melt-in-mouth soft, completely different from regular lentil vadas. This delicacy showcases Varanasi\'s innovation in traditional sweets and snacks. Found in old sweet shops in the narrow lanes of Varanasi, especially in areas around Godowlia and Thatheri Bazaar.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1HAcaC5ZwllkACDvg-0tbwSXGmDg8o3Vx&sz=w2000',
       },
       {
         name: 'Launglata (लांगलता)',
         description: 'A traditional deep-fried pastry dessert stuffed with sweetened khoya (reduced milk solids), nuts, and coconut, sealed with a clove (laung). The outer covering is made from refined flour rolled thin and stuffed generously with the sweet filling, then deep-fried until golden and crispy. After frying, they are soaked in sugar syrup flavored with cardamom and saffron. The clove not only acts as a seal but adds a warm, aromatic flavor. The dessert has a crispy outside and soft, sweet inside. Common in traditional sweet shops and often prepared during festivals and weddings. The name comes from "laung" (clove) as the clove holds the pastry layers together. A sweet that represents old Banarasi culinary traditions.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1x7aYPdWyZcVeBIG9PJwIng3hHwzUvpTu&sz=w2000',
       },
-      {
-        name: 'Launglata',
-        description: 'Traditional sweet made during festivals',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
-      },
+      
     ]),
     stayingPlaces: [
       {
@@ -174,7 +170,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'The Confluence of Sacred Rivers',
     description: 'Home to the Triveni Sangam and host of the Maha Kumbh Mela',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=10B2hBK-Ow422yFhuqYnKBLy67M9alxCH&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Triveni Sangam (त्रिवेणी संगम)',
@@ -184,29 +180,29 @@ export const citiesData: CityData[] = [
       {
         name: 'Allahabad Fort (इलाहाबाद किला)',
         description: 'Historical Fortress - A massive fortification built by Mughal Emperor Akbar in 1583 CE on the banks of the Yamuna near Sangam. This is the largest fort built by Akbar, showcasing exemplary Mughal military architecture with huge walls, three galleries flanked by high towers, and four gateways. The fort houses the ancient Akshayavat (immortal Banyan tree) inside Patalpuri Temple, believed to be eternal and mentioned in ancient Hindu texts. According to legend, those who see the tree attain moksha. The fort also contains the famous Ashoka Pillar (Allahabad Pillar) from 232 BCE with inscriptions by three emperors: Ashoka, Samudragupta, and Jahangir. The underground palace (Patalpuri) has historical significance. Most of the fort is under Indian Army control, but selected areas are open to visitors. The Saraswati Koop (well) is believed to be the source of the invisible Saraswati River.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=11R3um9Ua8YsI943VLq45preXExchR2xv&sz=w2000',
       },
       {
         name: 'Anand Bhavan (आनंद भवन)',
         description: 'Freedom Movement History - The historic ancestral mansion of the Nehru-Gandhi family and the epicenter of India\'s independence movement. Originally called Swaraj Bhavan, it was donated to the nation by Motilal Nehru in 1930. The new family residence, Anand Bhavan, was built adjacent to it. Now a museum, it houses photographs, documents, and personal belongings of the Nehru family. The rooms where Jawaharlal Nehru, Indira Gandhi, and other freedom fighters lived and planned the independence movement are preserved. The property has a beautiful garden, a planetarium named after Nehru, and displays vintage cars. The adjoining Swaraj Bhavan museum showcases the freedom struggle through exhibits, including the room where Mahatma Gandhi stayed. The Charkha (spinning wheel) and Nehru\'s study with books give insights into the lifestyle of India\'s first Prime Minister. A must-visit for understanding India\'s modern history.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1elJ7_Gz8Pm3VcrFypD2HWRfLktpFHqI6&sz=w2000',
       },
       {
         name: 'Khusro Bagh (खुसरो बाग)',
         description: 'Mughal Architecture - A peaceful, large walled garden (bagh) complex from the Mughal era containing magnificent tombs of Prince Khusrau Mirza (Emperor Jahangir\'s eldest son who rebelled against his father), his mother Shah Begum, and his sister Sultan Nithar Begum. Built in early 17th century, the tombs showcase exquisite Mughal architecture with intricate stone carvings, beautiful domes, and Persian-style sandstone structures. Prince Khusrau\'s tomb is the most impressive with a three-story structure topped by a large dome and four octagonal minarets. The garden, spread over 40 acres, has lush lawns, fruit orchards (especially famous for guavas), fountains, and walking paths. The tragic history of Prince Khusrau (who was imprisoned and later killed) adds a melancholic aura. The peaceful ambiance contrasts with the bustling city outside. Best visited during early mornings or evenings.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1B9JKqa99zpP7l_wPau7uqy6MpdR_tSqm&sz=w2000',
       },
     ]),
     historicalPlaces: [
       {
         name: 'All Saints Cathedral - Patthar Girja (पत्थर गिरजा)',
         description: 'Gothic Architecture - Known locally as Patthar Girja (Stone Church), this is a magnificent Anglican Cathedral built in 1887 during British Raj. Designed by architect William Emerson (who also designed Victoria Memorial, Kolkata), it represents one of the finest examples of Gothic Revival architecture in India. The cathedral features soaring spires reaching 175 feet, pointed arches, stained glass windows depicting biblical scenes, ornate stonework, flying buttresses, and a spacious nave that can accommodate 1,000 worshippers. The foundation stone was laid by the then Viceroy Lord Northbrook. The interior has beautiful marble altar, wooden pews, and memorial plaques to British officials and soldiers. The cathedral compound has well-maintained gardens. Sunday services with choir singing create a serene spiritual atmosphere. The architecture stands as a testament to British colonial influence in Prayagraj. The bell tower offers panoramic views of the city.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1fVnnGsisaec_ihEINRsW0bB5HkFAJBbI&sz=w2000',
       },
       {
         name: 'Bade Hanuman Ji Temple (बड़े हनुमान जी मंदिर)',
         description: 'Unique Deity - Famous for its unique reclining (Lete Hue) Hanuman idol that is perpetually half-submerged in water throughout the year. Located within Allahabad Fort near Sangam, this temple is one of the few in India depicting Hanuman in a reclining posture rather than the usual standing position. The idol measures about 20 feet and only the upper body is visible above water. According to legend and local belief, the Ganga River rises every year specifically to touch the feet of this deity, considered a sacred blessing. Devotees believe Hanuman Ji chose this spot to meditate after meeting Lord Rama at the Sangam. The temple gains special significance during Hanuman Jayanti and Tuesdays when thousands gather to worship. The continuously flowing water (from an underground spring) adds to the mystical aura. The temple is mentioned in ancient Hindu texts and is considered a Shakti Peeth by some.',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1uidXUapsPvJ8JbhYkTZZx9utvC1BC6zw&sz=w2000',
       },
     ],
     hiddenGems: [
@@ -278,7 +274,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'The Birthplace of Lord Rama',
     description: 'Ancient city of immense religious and historical significance',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=10B2hBK-Ow422yFhuqYnKBLy67M9alxCH&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Ram Mandir',
@@ -362,7 +358,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'City of Saints and Spirituality',
     description: 'Known for the Gorakhnath Temple and rich Buddhist heritage',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1HeXZTTY1Glzyp4oED0vI5jXYhHleSdh7&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Gorakhnath Temple',
@@ -458,51 +454,46 @@ export const citiesData: CityData[] = [
     region: REGIONS.CENTRAL_WESTERN,
     tagline: 'City of the Taj Mahal',
     description: 'Home to three UNESCO World Heritage Sites and Mughal architecture',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1rwHj0E632Ss5gB-9aqKUjHsGa8GFTHB_&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Taj Mahal',
         description: 'Iconic marble mausoleum, symbol of eternal love',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1bO-z6S9-9yCxe0f8v51sPUvUcFG5erxD&sz=w2000',
       },
       {
         name: 'Agra Fort',
         description: 'Massive red sandstone fort and UNESCO World Heritage Site',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
-      },
-      {
-        name: 'Fatehpur Sikri',
-        description: 'Magnificent abandoned Mughal city',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1nE6OpL4aTXGk7elkvYTiiYP4AYs65zTo&sz=w2000',
       },
       {
         name: 'Itimad-ud-Daulah',
         description: 'Baby Taj - exquisite marble tomb',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1aIUmZGAuXuoKKZk-faLlzxnbb94S1A9p&sz=w2000',
       },
     ]),
     historicalPlaces: withFallbackByIndex([
       {
         name: 'Mehtab Bagh',
         description: 'Garden offering stunning view of Taj Mahal',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1Hq-G1e4c0ZJsB7eFZTsGiaDoLB-3xfU4&sz=w2000',
       },
       {
         name: 'Chini Ka Rauza',
         description: 'Persian-style mausoleum with glazed tile work',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1PbW8XHSRCQKoRQOxlXu9pjGzQ2pLep8S&sz=w2000',
       },
       {
         name: 'Mankameshwar Temple',
         description: 'Ancient Shiva temple',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1wpVii4PQz1DmPaK-sXEbs9zMTF1P-JUd&sz=w2000',
       },
     ]),
     hiddenGems: withFallbackByIndex([
       {
         name: 'Guru Ka Taal Gurudwara',
         description: 'Sikh shrine with historical significance',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1nqzujOaRhCzpV35inAz7I_lYBlg8jjD-&sz=w2000',
       },
       {
         name: 'Rajapur',
@@ -514,17 +505,17 @@ export const citiesData: CityData[] = [
       {
         name: 'Petha',
         description: 'Iconic Agra sweet made from ash gourd',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1sEH3l2fP1MV5dr9wHf5cs1_utqmRSOLk&sz=w2000',
       },
       {
         name: 'Bedai and Jalebi',
         description: 'Popular breakfast combination',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1JPxDAwUDVHzY3_VJkiSmcReAiDcmeyqh&sz=w2000',
       },
       {
         name: 'Mughlai Cuisine',
         description: 'Rich curries and kebabs',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1UgpJe_2T9-GDWXh0wcWEBPt3tvlPRnTt&sz=w2000',
       },
     ]),
     stayingPlaces: withFallbackByIndex([
@@ -548,39 +539,39 @@ export const citiesData: CityData[] = [
     region: REGIONS.CENTRAL_WESTERN,
     tagline: 'Abandoned Mughal Capital',
     description: 'UNESCO World Heritage ghost city built by Emperor Akbar',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1Sf1_M6aBgRn2GaxBzY1BUM5ibC_xTUCo&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Buland Darwaza',
         description: 'Grand victory gateway',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=10tH-iTJLnMN_37Est48xicve_GEnxRDM&sz=w2000',
       },
       {
         name: 'Jama Masjid',
         description: 'Historic mosque within palace complex',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1rMw0nfDjOkMmnAO23hEx9yMwPVjVavAp&sz=w2000',
       },
       {
         name: 'Palace Complex',
         description: 'Courtyards and royal residences',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1Sf1_M6aBgRn2GaxBzY1BUM5ibC_xTUCo&sz=w2000',
       },
     ]),
     historicalPlaces: withFallbackByIndex([
       {
         name: 'Anup Talao',
         description: 'Decorative pool used for performances',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1alQBgsVybWUtzTlciXvYDYuuYkKVzM_5&sz=w2000',
       },
       {
         name: 'Hiran Minar',
         description: 'Tower memorial to Akbar’s favorite antelope',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1ndUb2V0QQe0xsm5Wc04-b-jKO3qJyTeo&sz=w2000',
       },
       {
         name: 'Mariam-uz-Zamani Palace',
         description: 'Residence of Akbar’s chief queen',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1z_PUzq89MLaiic-hFx1fteN7NqGnNk7x&sz=w2000',
       },
     ]),
     hiddenGems: [],
@@ -594,7 +585,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'Waterfalls and Carpet Heritage',
     description: 'Known for scenic waterfalls, ancient forts, and carpet weaving traditions',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1VvxKwW_D-HWfETDMYvY0ljjLfHxoEglH&sz=w2000',
     placesToVisit: withFallbackByIndex([
       { name: 'Chunar Fort', description: 'Historic fort on the banks of Ganges', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Lakhaniya Dari Waterfall', description: 'Spectacular seasonal waterfall', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
@@ -618,7 +609,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'Pottery and Saree Weaving Hub',
     description: 'Historic town noted for black clay pottery, saree markets, and cultural heritage',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1_NNR_rj8a-1Qx8KHj8FAWAlQJ7UMhCZ3&sz=w2000',
     placesToVisit: withFallbackByIndex([
       { name: 'Govind Sahab', description: 'Prominent local temple complex', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Daulat Ibrahim Khan Tomb', description: 'Historical tomb architecture', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
@@ -650,7 +641,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'Freedom Fighters and River Heritage',
     description: 'Known for independence movement legacy, river ghats, and rustic cuisine',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1WJtdPRzn0KTS6l2IMLpTaJswlAwqFYvB&sz=w2000',
     placesToVisit: withFallbackByIndex([
       { name: 'Shaheed Smarak', description: 'Memorial honoring martyrs', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Sangam Ghat', description: 'River confluence scenic point', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
@@ -679,7 +670,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'Ghats and Temple Traditions',
     description: 'River ghats, spiritual centers, and vibrant local sweets culture',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1LzY7qS7HMXuL3Hg8Pvy_DMRG2C-O7DEK&sz=w2000',
     placesToVisit: withFallbackByIndex([
       { name: 'Devraha Baba Ashram', description: 'Spiritual hermitage center', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Barhaj Saryu River Ghat', description: 'Peaceful riverside rituals', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
@@ -708,73 +699,73 @@ export const citiesData: CityData[] = [
     region: REGIONS.CENTRAL_WESTERN,
     tagline: 'City of Nawabs',
     description: 'Known for its Nawabi culture, kebabs, and architectural marvels',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1xmD-OJIMQEDdWAlzFWyaJFrku3PkUHxg&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Bara Imambara',
         description: 'Architectural marvel with the famous Bhul Bhulaiya maze',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1Tc-Ed8LI9xYzXCxOgzieCq1p63JXIIg6&sz=w2000',
       },
       {
         name: 'Chota Imambara',
         description: 'Beautiful monument adorned with chandeliers',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1rpoiIJIUnKFgjweGKPm5W6AoVpbuylGk&sz=w2000',
       },
       {
         name: 'Rumi Darwaza',
         description: 'Imposing gateway symbolizing Lucknow',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1zn3AlyOCymHfOEV_mu9Le-er7ldFws59&sz=w2000',
       },
       {
         name: 'Hazratganj',
         description: 'Historic shopping and cultural district',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1QkWy69wJYtTEytpLpbU0uuqx591clVf_&sz=w2000',
       },
     ]),
     historicalPlaces: withFallbackByIndex([
       {
         name: 'The British Residency',
         description: 'Ruins from 1857 uprising',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1q8knn8tELsFKgCtmyIz_nq-uNLnIWjpz&sz=w2000',
       },
       {
         name: 'Ambedkar Memorial Park',
         description: 'Massive memorial with impressive architecture',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1dnbv_d4BtPGNL7z5ejvSA6d8uPGnCz1G&sz=w2000',
       },
     ]),
     hiddenGems: withFallbackByIndex([
       {
         name: 'Dilkusha Kothi',
         description: 'English baroque palace ruins',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1UV4RrX17eoZFPyQ-PGY2KBoOWNUDTHeo&sz=w2000',
       },
       {
         name: 'Kudiya Ghat',
         description: 'Peaceful riverside spot',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1QsgdA0ZAuWlR4qWTPiz-pmDiwnPZWfm7&sz=w2000',
       },
     ]),
     famousDishes: withFallbackByIndex([
       {
         name: 'Tunday Kababi',
         description: 'World-famous melt-in-mouth kebabs',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1b7oTvJgkSyjaWVTXsb85S1TNin3BKKSZ&sz=w2000',
       },
       {
         name: 'Lucknawi Biryani',
         description: 'Aromatic awadhi-style biryani',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1w2Q5zfMAo-d0ejfjkWOsHQekMVpfYLYf&sz=w2000',
       },
       {
         name: 'Nihari and Kulcha',
         description: 'Slow-cooked meat stew with bread',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1EudFxsu9WrP9qkLB5JFNfB2mAxPndca_&sz=w2000',
       },
       {
         name: 'Galouti Kebab',
         description: 'Soft, spiced minced meat kebabs',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1jJXqbP2IBunX2IfK5ogeGuRi8WAYGqJl&sz=w2000',
       },
     ]),
     stayingPlaces: withFallbackByIndex([
@@ -782,13 +773,13 @@ export const citiesData: CityData[] = [
         name: 'Taj Hotel',
         type: 'Luxury Hotel',
         description: 'Premium luxury accommodation',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1goKwSVa19WQWuvV4gB5nhU-SkDksiRpV&sz=w2000',
       },
       {
         name: 'Gandhi Ashram',
         type: 'Ashram',
         description: 'Peaceful ashram stay',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=11gC_IYLln99oy_xHs3FzvKCrq2oUAKRm&sz=w2000',
       },
     ]),
   },
@@ -798,73 +789,73 @@ export const citiesData: CityData[] = [
     region: REGIONS.CENTRAL_WESTERN,
     tagline: 'Krishna\'s Divine Land',
     description: 'Birthplace of Lord Krishna and center of Krishna devotion',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1kw8Iwi5OLvOm_sdj5Yj4CIjsM69QPeer&sz=w2000',
     placesToVisit: withFallbackByIndex([
       {
         name: 'Shree Krishna Janmabhoomi',
         description: 'Birthplace of Lord Krishna',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1dWnKkQuNCIJynq_TLhbSEIlcoMZul_2o&sz=w2000',
       },
       {
         name: 'Banke Bihari Temple',
         description: 'Most popular temple in Vrindavan',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1sgjTu3bX1of3s39P6Qdzx_j6oY-_RtKk&sz=w2000',
       },
       {
         name: 'ISKCON Temple',
         description: 'Modern temple with stunning architecture',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1ZezRw_p-d6wwLhnfROdQzmsWqMBugzV7&sz=w2000',
       },
       {
         name: 'Prem Mandir',
         description: 'Magnificent illuminated temple',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=137pczg6OiAY1kNd-Lx99emRHsGH9d4se&sz=w2000',
       },
       {
         name: 'Vishram Ghat',
         description: 'Sacred bathing ghat on Yamuna',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1xaFOCV4kHi92cIN7enOxwxjbMNz0dShZ&sz=w2000',
       },
     ]),
     historicalPlaces: [
       {
         name: 'Dwarkadheesh Temple',
         description: 'Ancient temple with intricate carvings',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1MJrQmkHxxQ1RuR_ryzjE4yot3_za7V0G&sz=w2000',
       },
       {
         name: 'Govardhan Hill',
         description: 'Sacred hill lifted by Krishna',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1N2DJAv0mPj3AAYnvQTZ15VBO2-QzIWIg&sz=w2000',
       },
     ],
     hiddenGems: [
       {
         name: 'Nidhivan',
         description: 'Mysterious garden where Krishna dances at night',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1N1O9_eky_U8QSVG0Yk_9voPcziHBkdQ5&sz=w2000',
       },
       {
         name: 'Seva Kunj',
         description: 'Peaceful garden of divine play',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1kw8Iwi5OLvOm_sdj5Yj4CIjsM69QPeer&sz=w2000',
       },
       {
         name: 'Kusum Sarovar',
         description: 'Beautiful sandstone reservoir',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1VgPewwUBTZg5-3W93OKLm97GKzS21bDO&sz=w2000',
       },
     ],
     famousDishes: withFallbackByIndex([
       {
         name: 'Peda',
         description: 'Famous milk sweet of Mathura',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1dwCNVTLF9qbHlzHCj6eTCB9GaZKZAs1M&sz=w2000',
       },
       {
         name: 'Satvik Thali',
         description: 'Pure vegetarian meal',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=1SPnKGg1IPglXfYAdJjkc8YS_o9Z0nF1v&sz=w2000',
       },
     ]),
     stayingPlaces: withFallbackByIndex([
@@ -872,7 +863,7 @@ export const citiesData: CityData[] = [
         name: 'Temple Ashrams',
         type: 'Ashram',
         description: 'Spiritual accommodation in ashrams',
-        image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+        image: 'https://drive.google.com/thumbnail?id=12B7H3nGPn1i8RaMJRCecfsq2Ji_23Wb9&sz=w2000',
       },
     ]),
   },
@@ -1483,7 +1474,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.BUNDELKHAND,
     tagline: 'Gateway to Bundelkhand - City of Rani Lakshmibai',
     description: 'The principal urban hub of Bundelkhand, immortalized by the valor of Rani Lakshmibai during the 1857 Rebellion',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://drive.google.com/thumbnail?id=1OIOOZT63qzPJ8A0xKokt2ooVjocRk7hw&sz=w2000',
     placesToVisit: [
       {
         name: 'Jhansi Fort (झाँसी का किला)',

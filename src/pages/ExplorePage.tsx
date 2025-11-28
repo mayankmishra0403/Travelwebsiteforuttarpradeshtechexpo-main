@@ -16,7 +16,7 @@ const regions = [
     id: 'purvanchal',
     name: 'Purvanchal',
     tagline: 'The spiritual heartland of India, home to Varanasi, Prayagraj, and Ayodhya',
-    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    image: 'https://drive.google.com/thumbnail?id=1TO8YubAHbS1KmtNcmKNs09hb5pdlIXur&sz=w2000',
     highlights: ['Ganga Aarti', 'Sacred Temples', 'Kashi Vishwanath'],
     stats: [
       { value: '16', label: 'Cities' },
@@ -109,7 +109,7 @@ export function ExplorePage() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000"
+            src="https://static.javatpoint.com/tourist-places/images/tourist-places-in-uttar-pradesh.jpg"
             alt="Heritage Background"
             className="w-full h-full object-cover"
           />

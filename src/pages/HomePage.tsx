@@ -7,7 +7,7 @@ import { getAllCities } from '../data/cities-data';
 import { useEffect, useRef } from 'react';
 import { FloatingElements } from '../components/FloatingElements';
 
-const heroImage = 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000';
+
 
 const highlights = [
   {
@@ -103,11 +103,16 @@ export function HomePage() {
           style={{ y }}
           className="absolute inset-0 z-0"
         >
-          <ImageWithFallback
-            src={heroImage}
-            alt="Uttar Pradesh Tourism"
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
             className="w-full h-full object-cover scale-110"
-          />
+          >
+            <source src="https://assets.mixkit.co/videos/1218/1218-720.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
         </motion.div>
 
@@ -137,7 +142,7 @@ export function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight"
-              style={{ fontFamily: "'Playfair Display', serif" }}
+              style={{ fontFamily: 'Agarthi, serif' }}
             >
               Experience the Spirit of
               <br />
@@ -211,7 +216,7 @@ export function HomePage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-20"
           >
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Agarthi, serif' }}>
               Start Your Journey
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -270,7 +275,7 @@ export function HomePage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: "'Playfair Display', serif" }}>
+            <h2 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6" style={{ fontFamily: 'Agarthi, serif' }}>
               Featured Destinations
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
