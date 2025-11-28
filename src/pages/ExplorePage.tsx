@@ -28,7 +28,7 @@ const regions = [
     id: 'hills',
     name: 'Himalayan Foothill Region',
     tagline: 'Gateway to the Himalayas and spiritual valleys. Home to Dudhwa National Park',
-    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    image: 'https://drive.google.com/thumbnail?id=18xwDOlsdGU9oOdGwIw8aZjE0JOtvqKTM&sz=w2000',
     highlights: ['Dudhwa National Park', 'Himalayan Foothills'],
     stats: [
       { value: '8', label: 'Cities' },
@@ -40,7 +40,7 @@ const regions = [
     id: 'bundelkhand',
     name: 'Bundelkhand',
     tagline: 'A region steeped in valor and history, featuring magnificent forts, UNESCO...',
-    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    image: 'https://drive.google.com/thumbnail?id=1gFhTra7AzC3q5yDqa_7DdPWSwlER6qbz&sz=w2000',
     highlights: ['Khajuraho Temples', 'Jhansi Fort'],
     stats: [
       { value: '5', label: 'Cities' },
@@ -52,7 +52,7 @@ const regions = [
     id: 'central',
     name: 'Central & Western UP',
     tagline: 'Where Mughal grandeur meets devotional traditions. Home to the Taj...',
-    image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    image: 'https://drive.google.com/thumbnail?id=1iCpIFc8tHCcvaEqBcuStTUYJeIJmYxS9&sz=w2000',
     highlights: ['Taj Mahal', 'Nawabi Lucknow'],
     stats: [
       { value: '20+', label: 'Cities' },
@@ -108,11 +108,16 @@ export function ExplorePage() {
     <div className="min-h-screen">
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <ImageWithFallback
-            src="https://static.javatpoint.com/tourist-places/images/tourist-places-in-uttar-pradesh.jpg"
-            alt="Heritage Background"
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
             className="w-full h-full object-cover"
-          />
+          >
+            <source src="https://assets.mixkit.co/active_storage/video_items/100223/1721860447/100223-video-720.mp4" type="video/mp4" />
+          </video>
           <div className="absolute inset-0 bg-gradient-to-b from-slate-900/70 via-slate-800/60 to-slate-900/80" />
         </div>
 
