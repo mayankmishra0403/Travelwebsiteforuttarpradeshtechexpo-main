@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import { MapPin, Camera, Calendar, Phone, ChevronDown } from 'lucide-react';
+import { MapPin, Images, Calendar, Phone, ChevronDown } from 'lucide-react';
 import { Card } from '../components/ui/card';
 import { useNavigate } from 'react-router-dom';
 import { getAllCities } from '../data/cities-data';
@@ -18,7 +18,7 @@ const highlights = [
     gradient: 'from-blue-500 to-cyan-500',
   },
   {
-    icon: Camera,
+    icon: Images,
     title: 'Photo Gallery',
     description: 'Visual journey through our stunning landscapes',
     link: '/gallery',
