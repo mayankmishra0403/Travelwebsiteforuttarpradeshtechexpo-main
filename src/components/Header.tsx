@@ -53,6 +53,7 @@ export function Header() {
     { path: '/gallery', label: 'Gallery' },
     { path: '/plan', label: 'Plan Your Visit' },
     { path: '/contact', label: 'Contact' },
+    { path: 'http://darshan360.in.net/about.html', label: 'About Us', external: true },
   ];
 
   return (
@@ -93,29 +94,46 @@ export function Header() {
 
           <nav className="hidden md:flex items-center gap-1">
             {navItems.map((item, index) => (
-              <motion.button
-                key={item.path}
-                initial={{ opacity: 0, y: -20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1, duration: 0.4 }}
-                onClick={() => handleNavigation(item.path)}
-                whileHover={{ y: -2 }}
-                whileTap={{ scale: 0.95 }}
-                className={`px-4 py-2 transition-colors relative ${location.pathname === item.path
-                    ? 'text-orange-600'
-                    : 'text-gray-700 hover:text-orange-600'
-                  }`}
-              >
-                {item.label}
-                {location.pathname === item.path && (
-                  <motion.div
-                    layoutId="activeTab"
-                    className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-600"
-                    initial={false}
-                    transition={{ type: "spring", stiffness: 380, damping: 30 }}
-                  />
-                )}
-              </motion.button>
+              item.external ? (
+                <motion.a
+                  key={item.path}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1, duration: 0.4 }}
+                  href={item.path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="px-4 py-2 transition-colors relative text-gray-700 hover:text-orange-600"
+                >
+                  {item.label}
+                </motion.a>
+              ) : (
+                <motion.button
+                  key={item.path}
+                  initial={{ opacity: 0, y: -20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: index * 0.1, duration: 0.4 }}
+                  onClick={() => handleNavigation(item.path)}
+                  whileHover={{ y: -2 }}
+                  whileTap={{ scale: 0.95 }}
+                  className={`px-4 py-2 transition-colors relative ${location.pathname === item.path
+                      ? 'text-orange-600'
+                      : 'text-gray-700 hover:text-orange-600'
+                    }`}
+                >
+                  {item.label}
+                  {location.pathname === item.path && (
+                    <motion.div
+                      layoutId="activeTab"
+                      className="absolute bottom-0 left-0 right-0 h-0.5 bg-orange-600"
+                      initial={false}
+                      transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                    />
+                  )}
+                </motion.button>
+              )
             ))}
           </nav>
 
@@ -161,19 +179,34 @@ export function Header() {
             >
               <div className="py-4">
                 {navItems.map((item, index) => (
-                  <motion.button
-                    key={item.path}
-                    initial={{ x: -20, opacity: 0 }}
-                    animate={{ x: 0, opacity: 1 }}
-                    transition={{ delay: index * 0.05, duration: 0.3 }}
-                    onClick={() => handleNavigation(item.path)}
-                    className={`block w-full text-left px-4 py-3 transition-colors ${location.pathname === item.path
-                        ? 'bg-orange-50 text-orange-600'
-                        : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600'
-                      }`}
-                  >
-                    {item.label}
-                  </motion.button>
+                  item.external ? (
+                    <motion.a
+                      key={item.path}
+                      initial={{ x: -20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ delay: index * 0.05, duration: 0.3 }}
+                      href={item.path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block w-full text-left px-4 py-3 transition-colors text-gray-700 hover:bg-orange-50 hover:text-orange-600"
+                    >
+                      {item.label}
+                    </motion.a>
+                  ) : (
+                    <motion.button
+                      key={item.path}
+                      initial={{ x: -20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ delay: index * 0.05, duration: 0.3 }}
+                      onClick={() => handleNavigation(item.path)}
+                      className={`block w-full text-left px-4 py-3 transition-colors ${location.pathname === item.path
+                          ? 'bg-orange-50 text-orange-600'
+                          : 'text-gray-700 hover:bg-orange-50 hover:text-orange-600'
+                        }`}
+                    >
+                      {item.label}
+                    </motion.button>
+                  )
                 ))}
               </div>
             </motion.nav>
