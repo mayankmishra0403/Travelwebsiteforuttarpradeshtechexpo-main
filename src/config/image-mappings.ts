@@ -336,16 +336,16 @@ export const balliaImages = {
 export const deoriaImages = {
   hero: img('images of purvanchal/Deoria', '', 'Devraha-Baba-Ashram.jpg'),
   placesToVisit: [
-    img('images of purvanchal/Deoria', '', 'Devraha-Baba-Ashram.jpg'),
-    img('images of purvanchal/Deoria', '', 'barhaj saryu river ghat.jpg'),
+    
+    
     img('images of purvanchal/Deoria', '', 'majhauli-raj-fort-majhauli-raj-deoria-forts-qrkrt0mkee.avif'),
     img('images of purvanchal/Deoria', '', 'dudheshwar-nath-mandir.avif'),
     img('images of purvanchal/Deoria', '', 'tirupati balaji temple.png'),
     img('images of purvanchal/Deoria', '', 'Devrahi mata mandir.webp'),
   ],
   dishes: [
-    img('images of purvanchal/Deoria', '', 'Samosa-Chaat.jpg'),
-    img('images of purvanchal/Deoria', '', 'bedmi-puri-736x1104.webp'),
+    
+    
     img('images of purvanchal/Deoria', '', 'litti chokha.gif'),
     img('images of purvanchal/Deoria', '', 'poori jalebi.jpg'),
     img('images of purvanchal/Deoria', '', 'daal poori.webp'),

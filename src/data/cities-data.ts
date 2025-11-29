@@ -644,7 +644,7 @@ export const citiesData: CityData[] = [
     heroImage: 'https://drive.google.com/thumbnail?id=1WJtdPRzn0KTS6l2IMLpTaJswlAwqFYvB&sz=w2000',
     placesToVisit: withFallbackByIndex([
       { name: 'Shaheed Smarak', description: 'Memorial honoring martyrs', image: 'https://drive.google.com/thumbnail?id=1lUWK2GSa1zm0U9JuDdk9VqGZKT4YyIAe&sz=w2000' },
-      { name: 'Sangam Ghat', description: 'River confluence scenic point', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
+      { name: 'Sangam Ghat', description: 'River confluence scenic point', image: 'https://img.traveltriangle.com/blog/wp-content/uploads/2024/06/sangam-ghat-prayagraj.jpg' },
       { name: 'Surha Tal', description: 'Seasonal lake and bird habitat', image: 'https://drive.google.com/thumbnail?id=1wHEtjDVgu8737oFYqCKB4MgqqZrddhJg&sz=w2000' },
       { name: 'Bhrigu Ashram', description: 'Ancient sage hermitage', image: 'https://drive.google.com/thumbnail?id=144m8hA8UxkznQxzhTCHJjreYFLhdwPfM&sz=w2000' },
       { name: 'Sitab Diara', description: 'Historic village area', image: 'https://drive.google.com/thumbnail?id=1lsCLIU741Qv3GglalIarrEwjERjCgZyV&sz=w2000' },
@@ -655,10 +655,10 @@ export const citiesData: CityData[] = [
     famousDishes: withFallbackByIndex([
       { name: 'Launglata', description: 'Khoya-filled festive pastry', image: 'https://drive.google.com/thumbnail?id=1NKhyZ_2xs3dYYrHHbGeHAjjg0Gf4F190&sz=w2000' },
       { name: 'Litti Chokha', description: 'Roasted wheat and smoky mash', image: 'https://drive.google.com/thumbnail?id=1t72HatwQqlx6qz7f5ymo3j57Vs0wyrXg&sz=w2000' },
-      { name: 'Badi Poori', description: 'Fried lentil dumpling poori combo', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
-      { name: 'Kanda Poha', description: 'Onion poha breakfast staple', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
-      { name: 'Gajar ka Halwa', description: 'Slow-cooked carrot dessert', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
-      { name: 'Sattu ki Lassi', description: 'Cooling yogurt and roasted gram drink', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
+      { name: 'Badi Poori', description: 'Fried lentil dumpling poori combo', image: 'https://drive.google.com/thumbnail?id=13Il6yiOfsN0-0LLgHfWJyBhQy-OWLIKq/&sz=w2000' },
+      { name: 'Kanda Poha', description: 'Onion poha breakfast staple', image: 'https://drive.google.com/thumbnail?id=1NJWhbQu3FsUGWW1FA5XZZri6TO4tBU-r&sz=w2000' },
+      { name: 'Gajar ka Halwa', description: 'Slow-cooked carrot dessert', image: 'https://drive.google.com/thumbnail?id=1YEhP3oZriF-1kd2IktvV3-nbCywStifs&sz=w2000' },
+      { name: 'Sattu ki Lassi', description: 'Cooling yogurt and roasted gram drink', image: 'https://drive.google.com/thumbnail?id=1AiW5CYI__Vt3olX-0EBUSW7rLrn77e-0&sz=w2000' },
       { name: 'Gulab Sakri', description: 'Regional sweet delicacy', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
     ]),
     stayingPlaces: [],
@@ -671,18 +671,19 @@ export const citiesData: CityData[] = [
     description: 'River ghats, spiritual centers, and vibrant local sweets culture',
     heroImage: 'https://drive.google.com/thumbnail?id=1LzY7qS7HMXuL3Hg8Pvy_DMRG2C-O7DEK&sz=w2000',
     placesToVisit: withFallbackByIndex([
-      { name: 'Devraha Baba Ashram', description: 'Spiritual hermitage center', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
-      { name: 'Barhaj Saryu River Ghat', description: 'Peaceful riverside rituals', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
+      { name: 'Devraha Baba Ashram', description: 'Spiritual hermitage center', image: 'https://staticimg.amarujala.com/assets/images/2021/09/05/b_1630841059.jpeg?q=80&w=700' },
+      { name: 'Barhaj Saryu River Ghat', description: 'Peaceful riverside rituals', image: 'https://cdn.s3waas.gov.in/s39872ed9fc22fc182d371c3e9ed316094/uploads/bfi_thumb/2018061168-olwapmtujiio38fqwlz3f38su1pbfb3qxhyouvhdoq.jpg' },
       { name: 'Majhauli Raj Fort', description: 'Historic fort remains', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Dudheshwar Nath Mandir', description: 'Popular Shiva temple', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Tirupati Balaji Temple', description: 'Southern style temple architecture', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Devrahi Mata Mandir', description: 'Local goddess shrine', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
     ]),
+    
     historicalPlaces: [],
     hiddenGems: [],
     famousDishes: withFallbackByIndex([
-      { name: 'Samosa Chaat', description: 'Crispy samosa with tangy toppings', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
-      { name: 'Bedmi Puri', description: 'Spiced lentil puri breakfast', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
+      { name: 'Samosa Chaat', description: 'Crispy samosa with tangy toppings', image: 'https://i0.wp.com/www.kikucorner.com/wp-content/uploads/2019/12/Samosa-Chaat-16.jpg?w=1394&ssl=1' },
+      { name: 'Bedmi Puri', description: 'Spiced lentil puri breakfast', image: 'https://yourfoodfantasy.com/wp-content/webpc-passthru.php?src=https://yourfoodfantasy.com/wp-content/uploads/2017/08/Bedmi-Puri-Recipe-Your-Food-Fantasy-1.jpg&nocache=1' },
       { name: 'Litti Chokha', description: 'Roasted sattu dumplings and mash', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Poori Jalebi', description: 'Sweet-spicy festive combo', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
       { name: 'Daal Poori', description: 'Protein-rich puri variant', image: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000' },
@@ -874,7 +875,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'The Sports City with Rich Heritage',
     description: 'Known for its sports goods industry and historical significance in the 1857 uprising',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/1/18/Mustafa_Castle_--_night_shot.jpg',
     placesToVisit: [
       {
         name: 'Shahid Smarak',
@@ -948,7 +949,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'The Furniture Capital of India',
     description: 'Famous for its furniture industry and mouth-watering street food culture',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Anand_Ashram.jpg/2560px-Anand_Ashram.jpg',
     placesToVisit: [
       {
         name: 'Alakhnath Temple',
@@ -1022,7 +1023,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'Brass City of India',
     description: 'World-famous for its brass handicrafts and unique culinary traditions',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/9/94/Methodist_Church_Moradabad.jpg',
     placesToVisit: [
       {
         name: 'Jama Masjid',
@@ -1091,7 +1092,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'Lock City and Educational Hub',
     description: 'Famous for Aligarh Muslim University and lock manufacturing industry',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/2/24/AMU_Masjid_-_panoramio.jpg',
     placesToVisit: [
       {
         name: 'Aligarh Muslim University',
@@ -1160,7 +1161,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'Wood Carving Capital',
     description: 'Renowned for exquisite wood carving and mouth-watering street food',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://www.hlimg.com/images/things2do/738X538/mata-shakumbhari-devi-38-1523007212t.jpg?w=1200&dpr=2.0',
     placesToVisit: [
       {
         name: 'Shakumbhari Devi Temple',
@@ -1234,7 +1235,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'City of Royal Heritage',
     description: 'Known for Rampuri cuisine and knife manufacturing',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Imambara%2C_Fort_of_Rampur%2C_Uttar_Pradesh%2C_c.1911.jpg',
     placesToVisit: [
       {
         name: 'Raza Library',
@@ -1308,7 +1309,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'Sugar Bowl of India',
     description: 'Major sugarcane and jaggery production hub of North India',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://d3sftlgbtusmnv.cloudfront.net/blog/wp-content/uploads/2024/12/Akshay-Vat-Vatika.jpg',
     placesToVisit: [
       {
         name: 'Jaggery Markets',
@@ -1387,7 +1388,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.HIMALAYAN,
     tagline: 'Gateway to Uttarakhand',
     description: 'Located near the foothills, known for sugarcane and unique sweets',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://im.hunt.in/cg/bijnaur/City-Guide/daranagar.jpg',
     placesToVisit: [
       {
         name: 'Vidur Kuti',
@@ -1572,7 +1573,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.BUNDELKHAND,
     tagline: 'Education Hub of Bundelkhand',
     description: 'Known for producing civil servants and academic excellence',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://img.traveltriangle.com/blog/wp-content/uploads/2024/05/Top-6-Places-To-Visit-In-Hamirpur-That-Will-Leave-You-Awe.jpg',
     placesToVisit: [
       {
         name: 'Maudaha',
@@ -1636,7 +1637,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.BUNDELKHAND,
     tagline: 'City of Chandela Kings',
     description: 'Historic capital of Chandela dynasty with ancient lakes',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://www.jagranimages.com/images/newimg/01072022/Mahoba(1).jpg',
     placesToVisit: [
       {
         name: 'Sun Temple - Surya Mandir (सूर्य मंदिर)',
@@ -1705,7 +1706,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.BUNDELKHAND,
     tagline: 'UNESCO World Heritage - Temple City',
     description: 'World-famous for Chandela dynasty temples with exquisite sculptures',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://media-cdn.tripadvisor.com/media/photo-s/17/cb/78/39/khajurahotemple-of-love.jpg',
     placesToVisit: [
       {
         name: 'Kandariya Mahadev Temple (कंदारिया महादेव मंदिर)',
@@ -1795,7 +1796,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.BUNDELKHAND,
     tagline: 'Magnificent Seven-Story Palace',
     description: 'Famous for Pitambara Peeth Shaktipeeth and the architectural marvel Datia Palace',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Final_level_dome.JPG/500px-Final_level_dome.JPG',
     placesToVisit: [
       {
         name: 'Datia Palace - Govind Mahal (दतिया का महल - गोविंद महल)',
@@ -1865,7 +1866,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.BUNDELKHAND,
     tagline: 'Land of Forts and Waterfalls',
     description: 'Historic town with stunning waterfalls, ancient forts and rich Bundeli heritage',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://preview.redd.it/a-random-evening-view-from-lalitpur-v0-jicjx0l5i7he1.jpeg?format=pjpg&auto=webp&s=0cfca487877eb922db60cce6ad801dfcd36dcaf2',
     placesToVisit: [
       {
         name: 'Deogarh Fort and Temples (देवगढ़ किला व मंदिर)',
@@ -1937,7 +1938,7 @@ export const citiesData: CityData[] = [
     region: REGIONS.PURVANCHAL,
     tagline: 'Land of Litti Chokha',
     description: 'Eastern UP city known for authentic Purvanchali cuisine and opium factory',
-    heroImage: 'https://drive.google.com/thumbnail?id=PLACEHOLDER_ID&sz=w2000',
+    heroImage: 'https://cdn.s3waas.gov.in/s3f2fc990265c712c49d51a18a32b39f0c/uploads/2018/02/2018021876-1024x819.jpg',
     placesToVisit: [
       {
         name: 'Lord Cornwallis Tomb',
