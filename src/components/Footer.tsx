@@ -30,7 +30,7 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <img
-                src="../public/assets/darshan360-logo.png"
+                src="https://drive.google.com/thumbnail?id=1ILXDJETxjntonN0Fa4BbaV2Kc0dLaIZB&sz=w2000"
                 alt="Darshan360"
                 className="h-14 w-auto"
               />
