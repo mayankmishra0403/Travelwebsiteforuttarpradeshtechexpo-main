@@ -272,21 +272,27 @@ export function PlanPage() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               <Card className="p-6 text-center hover:shadow-xl transition-shadow">
                 <Plane className="w-12 h-12 mx-auto mb-4 text-orange-500" />
-                <h3 className="text-xl text-gray-900 mb-2">By Air</h3>
+                <a href="https://trurism.com" target="_blank" rel="noopener noreferrer">
+                  <h3 className="text-xl text-gray-900 mb-2 hover:text-orange-600 cursor-pointer underline">By Air</h3>
+                </a>
                 <p className="text-sm text-gray-600">
                   Major airports in Lucknow, Varanasi, Prayagraj, and Agra
                 </p>
               </Card>
               <Card className="p-6 text-center hover:shadow-xl transition-shadow">
                 <Train className="w-12 h-12 mx-auto mb-4 text-orange-500" />
-                <h3 className="text-xl text-gray-900 mb-2">By Train</h3>
+                <a href="https://www.irctc.co.in/nget/train-search" target="_blank" rel="noopener noreferrer">
+                  <h3 className="text-xl text-gray-900 mb-2 hover:text-orange-600 cursor-pointer underline">By Train</h3>
+                </a>
                 <p className="text-sm text-gray-600">
                   Well-connected railway network across all major cities
                 </p>
               </Card>
               <Card className="p-6 text-center hover:shadow-xl transition-shadow">
                 <Car className="w-12 h-12 mx-auto mb-4 text-orange-500" />
-                <h3 className="text-xl text-gray-900 mb-2">By Road</h3>
+                <a href="https://trurism.com" target="_blank" rel="noopener noreferrer">
+                  <h3 className="text-xl text-gray-900 mb-2 hover:text-orange-600 cursor-pointer underline">By Road</h3>
+                </a>
                 <p className="text-sm text-gray-600">
                   Excellent highway network and bus services
                 </p>
