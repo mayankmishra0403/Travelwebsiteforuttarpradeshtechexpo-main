@@ -30,7 +30,7 @@ export function Footer() {
           <div>
             <div className="mb-4">
               <img
-                src={logo}
+                src="../public/assets/darshan360-logo.png"
                 alt="Darshan360"
                 className="h-14 w-auto"
               />
@@ -85,15 +85,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-gray-400">
                 <Phone className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0" />
-                <span>1800 1800 4100</span>
+                <span>+91 6307 251 510</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-gray-400">
                 <Mail className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0" />
-                <span>tourism@up.gov.in</span>
+                <span>support@darshan360.info</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 text-orange-500 mt-0.5 flex-shrink-0" />
-                <span>C-13, Vipin Khand, Gomti Nagar, Lucknow</span>
+                <span>Regional Office Darshan 360 Uttar Pradesh, Edufutura, 6th Floor, Incubation Centre, Main Building, H-Block, PSIT Kanpur, Bhauti Pratappur, NH-19, Kanpur, Uttar Pradesh</span>
               </li>
             </ul>
           </div>
@@ -102,7 +102,7 @@ export function Footer() {
         <div className="border-t border-gray-700 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              © 2025 Uttar Pradesh Tourism. All rights reserved.
+              © 2025 Darshan 360 | An Initiative by Edufutura Pvt. Ltd.All rights reserved.
             </p>
             <div className="flex gap-6">
               <a href="#" className="text-sm text-gray-400 hover:text-orange-500 transition-colors">

@@ -47,17 +47,17 @@ export function ContactPage() {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 522 230 8916', 'Toll Free: 1800 1800 4100'],
+      details: ['+91 6307 251 510', ],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['tourism@up.gov.in', 'info@uptourism.gov.in'],
+      details: ['edufutura@darshan360.info', 'support@darshan360.info'],
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['UP Tourism Department', 'C-13, Vipin Khand, Gomti Nagar', 'Lucknow, Uttar Pradesh 226010'],
+      details: ['Regional Office Darshan 360 Uttar Pradesh', 'Edufutura, 6th Floor, Incubation Centre, Main Building, H-Block, PSIT Kanpur', 'Bhauti Pratappur, NH-19, Kanpur, Uttar Pradesh'],
     },
   ];
 
