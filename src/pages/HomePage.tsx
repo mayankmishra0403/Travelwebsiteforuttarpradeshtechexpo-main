@@ -298,11 +298,12 @@ export function HomePage() {
                 onClick={() => navigate(`/city?id=${destination.id}`)}
                 className="group cursor-pointer"
               >
-                <div className="relative h-[400px] rounded-3xl overflow-hidden shadow-xl">
+                <div className="relative w-full h-80 md:h-96 rounded-3xl overflow-hidden shadow-xl flex items-center justify-center">
                   <ImageWithFallback
                     src={destination.image}
                     alt={destination.name}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    style={{ aspectRatio: '1.6 / 1', width: '100%', height: '100%' }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent opacity-80 group-hover:opacity-90 transition-opacity" />
 
