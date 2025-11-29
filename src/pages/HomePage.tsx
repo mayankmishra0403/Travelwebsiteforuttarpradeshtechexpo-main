@@ -126,28 +126,18 @@ export function HomePage() {
             transition={{ duration: 0.8 }}
             className="max-w-5xl"
           >
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ delay: 0.3, duration: 0.6 }}
-              className="mb-8"
-            >
-              <div className="inline-block px-6 py-2 glass rounded-full mb-6">
-                <span className="text-white text-sm tracking-[0.2em] uppercase font-medium">Incredible India</span>
-              </div>
-            </motion.div>
+            {/* Removed Experience India badge */}
 
             <motion.h1
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
-              className="text-6xl md:text-8xl font-bold text-white mb-8 leading-tight"
+              className="text-7xl md:text-9xl font-bold text-white mb-10 leading-tight"
               style={{ fontFamily: 'Agarthi, serif' }}
             >
-              Experience the Spirit of
-              <br />
-              <span className="gradient-text inline-block mt-2">
-                Uttar Pradesh
+              <span className="block mb-2 text-5xl md:text-7xl">Experience the Spirit of</span>
+              <span className="block mb-2 text-5xl md:text-7xl text-orange-400">
+                𝕌𝕋𝕋𝔸ℝ ℙℝ𝔸𝔻𝔼𝕊ℍ
               </span>
             </motion.h1>
 
